@@ -217,6 +217,7 @@ export default function HomePage() {
             <span className="text-xl font-bold text-foreground">VirtualSciLab</span>
           </div>
           <p className="text-foreground/60">Making science accessible through interactive simulations</p>
+          <p className="text-foreground/60">App By Darlingson Makuwila</p>
         </div>
       </footer>
     </div>
