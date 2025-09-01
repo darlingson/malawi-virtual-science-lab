@@ -34,6 +34,7 @@ export default function FloodSimulation({
   onReset,
 }: FloodSimulationProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
+  //@ts-ignore
   const animationRef = useRef<number>()
   const [waterParticles, setWaterParticles] = useState<WaterParticle[]>([])
   const [terrain, setTerrain] = useState<TerrainPoint[]>([])

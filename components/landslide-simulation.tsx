@@ -28,6 +28,7 @@ export default function LandslideSimulation({
   onReset,
 }: LandslideSimulationProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
+  //@ts-ignore
   const animationRef = useRef<number>()
   const [particles, setParticles] = useState<Particle[]>([])
   const [simulationStarted, setSimulationStarted] = useState(false)

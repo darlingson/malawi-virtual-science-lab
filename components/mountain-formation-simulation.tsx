@@ -33,6 +33,7 @@ export default function MountainFormationSimulation({
   onReset,
 }: MountainFormationSimulationProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
+  //@ts-ignore
   const animationRef = useRef<number>()
   const [layers, setLayers] = useState<TerrainLayer[]>([])
   const [plates, setPlates] = useState<TectonicPlate[]>([])

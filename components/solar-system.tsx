@@ -108,8 +108,9 @@ const planets: Planet[] = [
 
 export default function SolarSystem() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
+  //@ts-ignore
   const animationRef = useRef<number>()
-  const [speedMultiplier, setSpeedMultiplier] = useState(1)
+  const [speedMultiplier, setSpeedMultiplier] = useState(3)
   const [showOrbits, setShowOrbits] = useState(true)
   const timeRef = useRef(0)
 

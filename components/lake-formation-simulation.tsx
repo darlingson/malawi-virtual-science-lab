@@ -42,6 +42,7 @@ export default function LakeFormationSimulation({
   onReset,
 }: LakeFormationSimulationProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
+  //@ts-ignore
   const animationRef = useRef<number>()
   const [terrain, setTerrain] = useState<TerrainPoint[]>([])
   const [waterParticles, setWaterParticles] = useState<WaterParticle[]>([])
