@@ -5,9 +5,8 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'Malawi Virtual Science Lab',
+  description: 'A virtual science lab in Malawi made by Darlingson Makuwila with the help of AI(V0, gemini, ChatGPT, Grok)',
 }
 
 export default function RootLayout({
